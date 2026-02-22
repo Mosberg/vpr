@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vpr",
+  "version": "${version}",
+  "name": "Villager Profession Reimagined",
+  "description": "A mod that adds new villager professions.",
+  "authors": ["Mosberg!"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dk.mosberg.VPR"],
+    "client": ["dk.mosberg.client.VPRClient"],
+    "fabric-datagen": ["dk.mosberg.client.datagen.VPRDataGenerator"]
+  },
+  "mixins": [
+    "vpr.mixins.json",
+    {
+      "config": "vpr.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

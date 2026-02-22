@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "id": "vpr:warrior_post",
+  "name": "Warrior Post",
+  "description": "A warrior post for the villagers to get the profession of a warrior.",
+  "profession": "vpr:warrior",
+  "material": "minecraft:iron_block",
+  "hardness": 5.0,
+  "resistance": 6.0,
+  "sound": "minecraft:iron_block",
+  "loot_table": "vpr:loot_table/warrior_post",
+  "tags": ["minecraft:mineable/pickaxe", "minecraft:needs_iron_tool"],
+  "category": "utility_blocks"
+}

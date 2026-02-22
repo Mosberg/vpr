@@ -1,0 +1,25 @@
+{
+  "id": "vpr:warrior",
+  "name": "Warrior",
+  "description": "The warrior is a profession that focuses on combat. They are skilled in using weapons to protect the village from threats.",
+  "work_station": "vpr:warrior_post",
+  "gathering_items": ["minecraft:iron_sword", "minecraft:iron_axe"],
+  "gathering_chance": 0.1,
+  "gathering_cooldown": 6000,
+  "trading_items": [
+    {
+      "item": "minecraft:iron_sword",
+      "price": 10,
+      "max_uses": 5,
+      "experience": 2
+    },
+    {
+      "item": "minecraft:iron_axe",
+      "price": 8,
+      "max_uses": 5,
+      "experience": 2
+    }
+  ],
+  "gathering_loot_table": "vpr:loot_table/warrior_gathering",
+  "trading_loot_table": "vpr:loot_table/warrior_trading"
+}
