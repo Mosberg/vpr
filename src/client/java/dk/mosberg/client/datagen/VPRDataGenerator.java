@@ -13,6 +13,10 @@ public class VPRDataGenerator implements DataGeneratorEntrypoint {
   @Override
   public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
+  }
+
+  public static void register() {
+
     LOGGER.info("VPR Data Generator initialized!");
   }
 }
