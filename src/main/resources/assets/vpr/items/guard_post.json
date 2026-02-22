@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "vpr:item/guard_post"
+    "model": "vpr:block/guard_post"
   }
 }

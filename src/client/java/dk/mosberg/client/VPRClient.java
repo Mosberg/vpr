@@ -17,6 +17,11 @@ public class VPRClient implements ClientModInitializer {
 
     VPRDataGenerator.register();
 
+    // Example: Add custom rendering or tooltips for Guard and Warrior profession
+    // blocks
+    // TODO: Implement custom block rendering and UI features for GuardPostBlock and
+    // WarriorPostBlock
+
     LOGGER.info("VPR Client initialized!");
   }
 }

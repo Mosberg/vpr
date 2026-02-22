@@ -1,13 +1,14 @@
-package dk.mosberg.block.entity;
+package dk.mosberg.registry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class VPRGuardPostBlockEntity {
+public class ModBlocks {
   public static final String MOD_ID = "vpr";
   public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-  public static void register() {
-    LOGGER.info("Registering Guard Post Block Entity");
+  public static void initialize() {
+
+    LOGGER.info("Initialize all blocks...");
   }
 }

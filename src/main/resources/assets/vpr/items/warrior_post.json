@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "vpr:item/warrior_post"
+    "model": "vpr:block/warrior_post"
   }
 }

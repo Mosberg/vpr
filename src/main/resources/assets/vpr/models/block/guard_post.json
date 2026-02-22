@@ -3,8 +3,8 @@
   "credit": "Made by Mosberg",
   "texture_size": [64, 64],
   "textures": {
-    "0": "vpr:entity/guard_post",
-    "particle": "vpr:entity/guard_post"
+    "0": "vpr:block/guard_post",
+    "particle": "vpr:block/guard_post"
   },
   "elements": [
     {
